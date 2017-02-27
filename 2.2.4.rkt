@@ -5,3 +5,6 @@
   (+ (* c 100) (* b 10) a))
 
 (convert3 1 2 3)
+
+;; exercise 4.2.4
+(= 321 (convert3 3 2 1))

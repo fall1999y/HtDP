@@ -5,3 +5,6 @@
   (* number 0.9456))
 
 (dollar->euro 10)
+
+;; exercise 4.2.4
+(= 9.456 (dollar->euro 10)) 

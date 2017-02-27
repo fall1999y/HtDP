@@ -5,3 +5,6 @@
   (/ (* w h) 2))
 
 (triangle 2 4)
+
+;; exercise 4.2.4
+(= 4 (triangle 2 4))

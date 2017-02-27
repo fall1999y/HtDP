@@ -4,8 +4,11 @@
 (define (FtoC number)
   (/ (- number 32) 1.8))
 
-(FtoC 20)
+(FtoC 32)
 
 (convert-gui FtoC)
 (convert-repl FtoC)
 (convert-file "in.dat" FtoC "out.dat")
+
+;; exercise 4.2.4
+(= 0 (FtoC 32))
